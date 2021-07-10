@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-microservice-2
+  description: A micrososervice generated from Backsage
+  annotations: 
+    github.com/project-slug: mengwangk/my-microservice-2
+    backstage.io/source-ref: "https://github.com/mengwangk/my-microservice-2"
+    backstage.io/techdocs-ref: url:https://github.com/mengwangk/my-microservice-2
+    backstage.io/github-actions-id: https://github.com/mengwangk/my-microservice-2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: mengwangk
